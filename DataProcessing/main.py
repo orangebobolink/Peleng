@@ -1,7 +1,6 @@
 import pandas as pd
 import processing as proc
 
-# Загрузка данных
 data = pd.read_excel('data_1.xlsx')
 
 normalized_data = proc.data_normalization(data)

@@ -16,7 +16,6 @@ def correlation_matrix(normalized_data):
     """
     correlation_matrix = normalized_data.corr()
 
-    # Вывод матрицы корреляции
     print("\nМатрица корреляции:")
     print(correlation_matrix)
 
@@ -70,7 +69,6 @@ def processing_of_omissions(normalized_data):
     """
     normalized_data.fillna(normalized_data.mean(), inplace=True)
 
-    # Вывод нормализованных данных
     print("Нормализованные данные:")
     print(normalized_data.head())
 
